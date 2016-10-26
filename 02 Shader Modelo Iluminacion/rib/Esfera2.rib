@@ -1,0 +1,25 @@
+Display "PrimerShader.tif" 'framebuffer' 'rgba'
+Format 500 500 1
+PixelSamples 2 2
+
+Option "searchpath" "string shader" ["./bin:@"]
+
+FrameBegin 1
+Projection "perspective" "fov" 40
+
+WorldBegin
+	LightSource "ambientlight" 0 "intensity" [0.8] "lightcolor" [1 1 1]
+	LightSource "distantlight" 1 "intensity" [1] "lightcolor" [1 1 1] "from" [4 4 -3]
+	LightSource "pointlight" 3 "intensity" [12] "lightcolor" [1 1 1] "from" [-2 1 -3]
+
+	AttributeBegin
+		Color [0.2 0.5 0.3]
+		Surface "difSpec" "float Kd" 1 "float Ks" .8 "float roughness" .2 "color specularcolor" [0.1 0.2 1.0] 
+						  "color myOpacity" .9 "float Ka" .2
+		Translate 0 0 3.5
+		Scale .7 .7 2.5
+		Sphere 1 -1 1 360
+	AttributeEnd
+WorldEnd
+
+FrameEnd

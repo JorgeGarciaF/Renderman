@@ -1,0 +1,976 @@
+
+## RenderMan RIB-Structure 1.0
+## Multi-frame RIB file produced by "Cutter".
+## version  7.5.4
+## Software by  Malcolm Kesson.
+## All rights reserved.
+## Source animation file:  "naranjita.key"
+## Created at  2:36:16 PM 8.25.2016
+## Total number of frames is  60
+
+Format 640 480 1 
+PixelSamples 2 2 
+LightSource "ambientlight" 0 "intensity" [ 0.4 ] "lightcolor" [ 1 1 1 ] 
+LightSource "pointlight" 1 "intensity" [ 8 ] "lightcolor" [ 1 1 1 ] "from" [ 3 2 2 ] 
+LightSource "pointlight" 2 "intensity" [ 14 ] "lightcolor" [ 1 1 1 ] "from" [ -4 -3 1 ] 
+
+
+FrameBegin 1
+Display "../frames/naranja.0001.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 1.0 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 2
+Display "../frames/naranja.0002.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 7.084 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 3
+Display "../frames/naranja.0003.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 13.169 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 4
+Display "../frames/naranja.0004.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 19.254 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 5
+Display "../frames/naranja.0005.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 25.338 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 6
+Display "../frames/naranja.0006.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 31.423 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 7
+Display "../frames/naranja.0007.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 37.508 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 8
+Display "../frames/naranja.0008.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 43.593 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 9
+Display "../frames/naranja.0009.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 49.677 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 10
+Display "../frames/naranja.0010.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 55.762 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 11
+Display "../frames/naranja.0011.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 61.847 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 12
+Display "../frames/naranja.0012.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 67.932 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 13
+Display "../frames/naranja.0013.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 74.016 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 14
+Display "../frames/naranja.0014.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 80.101 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 15
+Display "../frames/naranja.0015.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 86.186 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 16
+Display "../frames/naranja.0016.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 92.271 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 17
+Display "../frames/naranja.0017.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 98.355 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 18
+Display "../frames/naranja.0018.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 104.440 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 19
+Display "../frames/naranja.0019.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 110.525 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 20
+Display "../frames/naranja.0020.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 116.610 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 21
+Display "../frames/naranja.0021.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 122.694 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 22
+Display "../frames/naranja.0022.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 128.779 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 23
+Display "../frames/naranja.0023.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 134.864 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 24
+Display "../frames/naranja.0024.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 140.949 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 25
+Display "../frames/naranja.0025.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 147.033 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 26
+Display "../frames/naranja.0026.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 153.118 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 27
+Display "../frames/naranja.0027.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 159.203 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 28
+Display "../frames/naranja.0028.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 165.288 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 29
+Display "../frames/naranja.0029.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 171.372 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 30
+Display "../frames/naranja.0030.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 177.457 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 31
+Display "../frames/naranja.0031.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 183.542 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 32
+Display "../frames/naranja.0032.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 189.627 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 33
+Display "../frames/naranja.0033.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 195.711 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 34
+Display "../frames/naranja.0034.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 201.796 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 35
+Display "../frames/naranja.0035.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 207.881 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 36
+Display "../frames/naranja.0036.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 213.966 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 37
+Display "../frames/naranja.0037.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 220.050 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 38
+Display "../frames/naranja.0038.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 226.135 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 39
+Display "../frames/naranja.0039.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 232.220 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 40
+Display "../frames/naranja.0040.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 238.305 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 41
+Display "../frames/naranja.0041.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 244.389 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 42
+Display "../frames/naranja.0042.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 250.474 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 43
+Display "../frames/naranja.0043.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 256.559 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 44
+Display "../frames/naranja.0044.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 262.644 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 45
+Display "../frames/naranja.0045.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 268.728 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 46
+Display "../frames/naranja.0046.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 274.813 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 47
+Display "../frames/naranja.0047.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 280.898 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 48
+Display "../frames/naranja.0048.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 286.983 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 49
+Display "../frames/naranja.0049.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 293.067 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 50
+Display "../frames/naranja.0050.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 299.152 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 51
+Display "../frames/naranja.0051.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 305.237 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 52
+Display "../frames/naranja.0052.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 311.322 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 53
+Display "../frames/naranja.0053.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 317.406 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 54
+Display "../frames/naranja.0054.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 323.491 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 55
+Display "../frames/naranja.0055.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 329.576 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 56
+Display "../frames/naranja.0056.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 335.661 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 57
+Display "../frames/naranja.0057.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 341.745 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 58
+Display "../frames/naranja.0058.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 347.830 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 59
+Display "../frames/naranja.0059.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 353.915 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd
+
+FrameBegin 60
+Display "../frames/naranja.0060.tif" "tiff" "rgb" "compression" ["lzw"]
+Projection "perspective" "fov" 45
+Translate 0 0 3
+Scale 1 1 1.5
+Rotate 360.0 0 1 0
+WorldBegin
+AttributeBegin
+Displacement "emboss" "string texturename" "naranjaTex.tex" "float Km" 1.4 "float truedisp" 0
+Surface "plastico" "float Ka" 0.9 "float Kd" 1 "float Ks" 2 "float roughness" 0.1
+Color [ 0.9 0.32 0 ]
+Sphere 1 -1 1 360
+AttributeEnd
+WorldEnd
+FrameEnd

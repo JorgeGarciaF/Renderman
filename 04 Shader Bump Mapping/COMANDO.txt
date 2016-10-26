@@ -1,0 +1,1 @@
+txmake -format pixar -resize round imagen.jpg imagen.tex

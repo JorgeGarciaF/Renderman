@@ -1,0 +1,2 @@
+render:
+	prman Esfera.rib

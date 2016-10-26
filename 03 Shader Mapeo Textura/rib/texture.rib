@@ -1,0 +1,25 @@
+Format 500 500 1
+PixelSamples 3 3
+PixelFilter "catmull-rom" 3 3
+ShadingRate 0.5
+
+FrameBegin 1
+Option "searchpath" "string shader" ["./bin:@"]
+Display "esferatexture.tif" "file" "rgba"
+Projection "perspective" "fov" 40
+
+WorldBegin
+	LightSource "ambientlight" 0 "intensity" [0.2] "lightcolor" [1 1 1]
+	LightSource "distantlight" 1 "intensity" [.8] "lightcolor" [1 1 1] "from" [4 4 -3] "to" [0 0 0]
+	LightSource "pointlight" 2 "intensity" [15] "lightcolor" [1 1 1] "from" [-4 -2 -3]
+
+	AttributeBegin
+		Color [0.3 0.3 0.9]
+		Surface "textura" "string texturename" "grid.tex"
+		Translate 0 0 3.5
+		Rotate -50 1 0 0
+		Sphere 1 -1 1 360
+	AttributeEnd
+WorldEnd
+
+FrameEnd

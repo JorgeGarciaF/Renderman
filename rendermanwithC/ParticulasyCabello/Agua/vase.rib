@@ -1,0 +1,17 @@
+Display "Vader.tiff" 'file' 'rgba'
+Projection "perspective" "fov" 40
+Translate 0 -5 30
+Rotate -110 1 0 0
+Rotate 110 0 0 1
+
+WorldBegin
+	LightSource "ambientlight" 0 "intensity" [0.2] "lightcolor" [1 1 1]
+	LightSource "distantlight" 1 "intensity" [.8] "lightcolor" [1 1 1] "from" [4 4 -3] "to" [0 0 0]
+	LightSource "pointlight" 2 "intensity" [15] "lightcolor" [1 1 1] "from" [-4 -2 -3]
+
+	AttributeBegin
+		Color [0.9 0.5 0.0]
+		Surface "shinymetal" "float Ka" [1] "float Kd" [0.1] "float Ks" [1] "float roughness" [.4] "float Kr" [.8] "float blur" [0] "string envname" "vader.tex" "string envspace" "world" "uniform float envrad" [1]
+		ReadArchive "vaseS.rib"
+	AttributeEnd
+WorldEnd

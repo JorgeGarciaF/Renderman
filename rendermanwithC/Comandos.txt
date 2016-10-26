@@ -1,0 +1,11 @@
+Comandos
+
+gcc o g++
+
+1.- g++ -c -I$RMANTREE/include men.c
+
+2.- g++ -o men -L$RMANTREE/lib -lribout -lprman -lm men.o
+
+3.- Con la biblioteca libribout.a le debería generar en automático el archivo.Rib
+
+4.- prman men.rib

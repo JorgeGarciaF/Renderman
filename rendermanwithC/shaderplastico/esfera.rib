@@ -1,0 +1,12 @@
+##RenderMan RIB
+version 3.04
+Display "Esfera.tiff" "file" "rgb" 
+Projection "perspective" 
+WorldBegin 
+LightSource "ambientlight" "922808a8-8e55-11e6-a1d6-a820664d8425" "intensity" [0.5]
+LightSource "distantlight" "92280a6a-8e55-11e6-a1d6-a820664d8425" "from" [0 0 1] "to" [0 10 0]
+Surface "plastic" "Ka" [1] "Kd" [0.5] "Ks" [0.5]
+Color [0.2 0.3 0.9]
+Translate 0 0 2
+Sphere 1 -1 1 360 
+WorldEnd 

@@ -1,0 +1,28 @@
+Display "PrimerShader.tif" 'framebuffer' 'rgba'
+Format 500 500 1
+PixelSamples 3 3
+
+Option "searchpath" "string shader" ["./bin:@"]
+
+FrameBegin 1
+Projection "perspective" "fov" 40
+
+WorldBegin
+	LightSource "ambientlight" 0 "intensity" [0.5] "lightcolor" [1 1 1]
+	
+	LightSource "pointlight" 3 "intensity" [10] "lightcolor" [1 1 1] "from" [2 2 1]
+	LightSource "pointlight" 2 "intensity" [7] "lightcolor" [1 1 1] "from" [-2 -2 0]
+
+	AttributeBegin
+		Color [0.2 0.5 0.3]
+		Displacement "bump" "string texturename" "src/king.tex"		
+		Surface "prueba" "float Kd" 1 "float Ks" 2 "float roughness" 0.1 "color specularColor" [0.1 0.6 0.5]
+		Translate 0 0 2.5
+		Scale .7 .7 1
+		Rotate -100 0 1 0
+		Rotate 100 1 0 0
+		Sphere 1 -1 1 360
+	AttributeEnd
+WorldEnd
+
+FrameEnd

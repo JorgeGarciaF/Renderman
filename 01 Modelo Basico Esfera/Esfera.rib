@@ -1,0 +1,19 @@
+Format 500 500 1
+PixelSamples 2 2
+
+Display "Esfera.tif" 'framebuffer' 'rgba'
+
+FrameBegin 1
+Projection "perspective" "fov" 40
+
+WorldBegin
+	LightSource "ambientlight" 0 "intensity" [1.5] "lightcolor" [1 1 1]
+
+	AttributeBegin
+		Color [1.0 0.2 0.3]
+		Translate 0 0 3.5
+		Sphere 1 -1 1 360
+	AttributeEnd
+WorldEnd
+
+FrameEnd
