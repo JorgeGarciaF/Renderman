@@ -1,19 +1,19 @@
 shader_obj 5.0 1 0
 emboss 51 6 21 16 37 0 9 9 0 9 15 1
-13 163
+13 204
 rgb
 current
 shader
 !!anyspace!!
-/Users/Jorge_Garcia/Desktop/05 Animacion/animation
+C:/Users/Kikinzco/Desktop/Escuela/Semestre 7/Visualizacion/Renderman/05 Animacion/animation
 .:
 emboss.sl
 
 blur
 Displace
 displacement
-$meta_2010
-$meta___PRMAN_RELEASE__2010
+$meta_2011
+$meta___PRMAN_RELEASE__2011
 6
 1
 1.25

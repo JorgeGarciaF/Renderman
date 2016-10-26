@@ -1,3 +1,3 @@
-Ejercicios de Renderman
+﻿Trabajos del curso de Visualización 2017-1
 
-Curso de Visualización 2017-1
+Bernal Cedillo Enrique Antonio
